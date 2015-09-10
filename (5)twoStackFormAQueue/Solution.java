@@ -1,3 +1,8 @@
+/*
+题目描述
+
+用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。
+*/
 import java.util.Stack;
 
 public class Solution {
@@ -11,7 +16,7 @@ public class Solution {
     public int pop() {
     	if(stack2.empty()){
     		if(stack1.empty()){
-    			throw new Exception("栈中无数据");
+    			return 0;
     		}else{
     			while(!stack1.empty()){
     				stack2.push(stack1.pop());
@@ -28,3 +33,7 @@ public class Solution {
     	System.out.println(s.pop());
     }
 }
+/*
+1.实际例子模拟操作过程
+2.返回值自己随意规定 
+*/
