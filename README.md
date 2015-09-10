@@ -8,3 +8,5 @@
 [3.链表中数据倒叙输出](http://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [4.重建二叉树](http://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[5.两个栈组成队列](http://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
