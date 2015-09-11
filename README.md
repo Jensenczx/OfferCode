@@ -16,3 +16,4 @@
 
 [7.寻找旋转数组中的最小数](http://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
+[8.菲波那切数列](http://www.nowcoder.com/practice/c6c7742f5ba7442aada113136ddea0c3?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
