@@ -10,3 +10,6 @@
 [4.重建二叉树](http://www.nowcoder.com/practice/8a19cbe657394eeaac2f6ea9b0f6fcf6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [5.两个栈组成队列](http://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+
+6.两个队列组成栈
