@@ -21,3 +21,5 @@
 [9.跳台阶](http://www.nowcoder.com/practice/8c82a5b80378478f9484d87d1c5f12a4?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [10.变态跳台阶](http://www.nowcoder.com/practice/22243d016f6b47f2a6928b4313c85387?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[11.矩形覆盖](http://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
