@@ -28,3 +28,7 @@
 12.Excel中字母行列问题
 
 [13.计算二进制数中1的个数](http://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[14.数值的整数次方](http://www.nowcoder.com/practice/1a834e5e3e1a4b7ba251417554e07c00?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[15.调整数组顺序使奇数位于偶数前面](http://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
