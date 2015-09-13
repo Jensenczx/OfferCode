@@ -26,3 +26,5 @@
 
 
 12.Excel中字母行列问题
+
+[13.计算二进制数中1的个数](http://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
