@@ -1,3 +1,7 @@
+/*
+题目描述
+给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
+*/
 public class Solution {
     public static double Power(double base, int exponent) {
     	double product = 1;
@@ -24,3 +28,6 @@ public class Solution {
   	System.out.println(Power(0,1));
   }
 }
+/*
+考虑到负数问题
+*/
