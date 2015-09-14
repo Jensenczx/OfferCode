@@ -34,3 +34,5 @@
 [15.调整数组顺序使奇数位于偶数前面](http://www.nowcoder.com/practice/beb5aa231adc45b2a5dcc5b62c93f593?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [16.链表中倒数第k个结点](http://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[17.反转链表](http://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
