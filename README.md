@@ -36,3 +36,5 @@
 [16.链表中倒数第k个结点](http://www.nowcoder.com/practice/529d3ae5a407492994ad2a246518148a?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [17.反转链表](http://www.nowcoder.com/practice/75e878df47f24fdc9dc3e400ec6058ca?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[18.合并列表](http://www.nowcoder.com/practice/d8b6b4358f774294a89de2a6ac4d9337?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
