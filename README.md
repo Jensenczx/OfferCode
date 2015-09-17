@@ -47,3 +47,5 @@
 [22.包含min函数的栈](http://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [23.栈的压入、弹出序列](http://www.nowcoder.com/practice/d77d11405cc7470d82554cb392585106?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[24.从上往下打印二叉树](http://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
