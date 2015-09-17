@@ -11,7 +11,6 @@
 
 [5.两个栈组成队列](http://www.nowcoder.com/practice/54275ddae22f475981afa2244dd448c6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
-
 6.两个队列组成栈
 
 [7.寻找旋转数组中的最小数](http://www.nowcoder.com/practice/9f3231a991af4f55b95579b44b7a01ba?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
@@ -44,3 +43,7 @@
 [20.二叉树的镜像](http://www.nowcoder.com/practice/564f4c26aa584921bc75623e48ca3011?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [21.顺时针打印矩阵](http://www.nowcoder.com/practice/9b4c81a02cd34f76be2659fa0d54342a?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[22.包含min函数的栈](http://www.nowcoder.com/practice/4c776177d2c04c2494f2555c9fcc1e49?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[23.栈的压入、弹出序列](http://www.nowcoder.com/practice/d77d11405cc7470d82554cb392585106?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
