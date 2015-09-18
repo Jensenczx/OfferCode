@@ -55,3 +55,7 @@
 26.二叉树的先序遍历序列
 
 [27.二叉树的深度](http://www.nowcoder.com/practice/435fb86331474282a3499955f0a41e8b?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[28.二叉树中和为某一值的路径](http://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[29.连续子数组的最大和](http://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
