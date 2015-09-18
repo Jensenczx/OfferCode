@@ -51,3 +51,5 @@
 [24.从上往下打印二叉树](http://www.nowcoder.com/practice/7fe2212963db4790b57431d9ed259701?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [25.二叉搜索树的后序遍历序列](http://www.nowcoder.com/practice/a861533d45854474ac791d90e447bafd?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+26.二叉树的先序遍历序列
