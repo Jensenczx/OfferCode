@@ -59,3 +59,13 @@
 [28.二叉树中和为某一值的路径](http://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [29.连续子数组的最大和](http://www.nowcoder.com/practice/459bd355da1549fa8a49e350bf3df484?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[30.数字在排序数组中出现的次数](http://www.nowcoder.com/practice/70610bf967994b22bb1c26f9ae901fa2?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[31.数组中只出现一次的数字](http://www.nowcoder.com/practice/e02fdb54d7524710a7d664d082bb7811?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[32.数组中出现次数超过一半的数字](http://www.nowcoder.com/practice/e8a1b01a2df14cb2b228b30ee6a92163?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[33.整数中1出现的次数](http://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[34.第一个只出现一次的字符位置](http://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
