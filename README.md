@@ -69,3 +69,5 @@
 [33.整数中1出现的次数](http://www.nowcoder.com/practice/bd7f978302044eee894445e244c7eee6?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [34.第一个只出现一次的字符位置](http://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[35.两个数字相加](http://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
