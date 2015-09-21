@@ -1,5 +1,5 @@
 ##Target
-《剑指offer》，《编程之美》，《算法》等几本算法算法书上面的题目解决源代码和思考.
+《剑指offer》，《编程之美》，《算法》等几本算法算法书上面的题目解决源代码和思考和相应题目的OJ地址。
 
 [1.二维数组查找问题](http://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -71,3 +71,11 @@
 [34.第一个只出现一次的字符位置](http://www.nowcoder.com/practice/1c82e8cf713b4bbeb2a5b31cf5b0417c?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [35.两个数字相加](http://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[36.删除链表中重复的结点](http://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)（未kill）
+
+[37.把数组排成最小的数](http://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(未)
+
+[38.字符串的排列](http://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)（未）
+
+[39.两个链表中的第一个公共结点](http://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
