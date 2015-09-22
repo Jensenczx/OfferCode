@@ -1,5 +1,5 @@
 ##Target
-《剑指offer》，《编程之美》，《算法》等几本算法算法书上面的题目解决源代码和思考和相应题目的OJ地址。
+《剑指offer》题目Java实现，OJ地址，自己做题的一些思考感悟。
 
 [1.二维数组查找问题](http://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
@@ -72,7 +72,7 @@
 
 [35.两个数字相加](http://www.nowcoder.com/practice/59ac416b4b944300b617d4f7f111b215?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
-[36.删除链表中重复的结点](http://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)（未kill）
+[36.删除链表中重复的结点](http://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [37.把数组排成最小的数](http://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(未)
 
