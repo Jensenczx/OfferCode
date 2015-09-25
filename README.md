@@ -85,3 +85,5 @@
 [41.复杂链表的复制](http://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba?rp=1&ru=/ta/coding-interviews)
 
 [42.平衡二叉树](http://www.nowcoder.com/practice/8b3b95850edb4115918ecebdf1b4d222?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[43.数组中的逆序对](http://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
