@@ -81,3 +81,5 @@
 [39.两个链表中的第一个公共结点](http://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [40.二叉树中和为某一值的路径](http://www.nowcoder.com/practice/b736e784e3e34731af99065031301bca?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[41.复杂链表的复制](http://www.nowcoder.com/practice/f836b2c43afc4b35ad6adc41ec941dba?rp=1&ru=/ta/coding-interviews)
