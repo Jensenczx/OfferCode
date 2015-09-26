@@ -89,3 +89,5 @@
 [43.数组中的逆序对](http://www.nowcoder.com/practice/96bd6684e04a44eb80e6a68efc0ec6c5?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [44.把二叉树打印成多行](http://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[45.二叉树的下一个结点](http://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
