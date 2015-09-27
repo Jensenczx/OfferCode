@@ -91,3 +91,5 @@
 [44.把二叉树打印成多行](http://www.nowcoder.com/practice/445c44d982d04483b04a54f298796288?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [45.二叉树的下一个结点](http://www.nowcoder.com/practice/9023a0c988684a53960365b889ceaf5e?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[46.和为S的两个数字](http://www.nowcoder.com/practice/390da4f7a00f44bea7c2f3d19491311b?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
