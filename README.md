@@ -97,3 +97,5 @@
 [47.和为S的正数序列](http://www.nowcoder.com/practice/c451a3fd84b64cb19485dad758a55ebe?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [48.对称的二叉树](http://www.nowcoder.com/practice/ff05d44dfdb04e1d83bdbdab320efbcb?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[49.按之字形顺序打印二叉树](http://www.nowcoder.com/practice/91b69814117f4e8097390d107d2efbe0?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
