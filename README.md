@@ -103,3 +103,5 @@
 [50.构建乘积数组](http://www.nowcoder.com/practice/94a4d381a68b47b7a8bed86f2975db46?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [51.孩子们的游戏(圆圈中最后剩下的数)](http://www.nowcoder.com/practice/f78a359491e64a50bce2d89cff857eb6?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[52.丑数](http://www.nowcoder.com/practice/6aa9e04fc3794f68acf8778237ba065b?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
