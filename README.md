@@ -111,3 +111,5 @@
 [54.扑克牌问题](http://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [55.字符串翻转](http://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[56.翻转单词序列](http://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
