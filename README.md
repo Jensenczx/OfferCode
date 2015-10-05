@@ -109,3 +109,5 @@
 [53.求1+2+3+...+n](http://www.nowcoder.com/practice/7a0da8fc483247ff8800059e12d7caf1?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [54.扑克牌问题](http://www.nowcoder.com/practice/762836f4d43d43ca9deb273b3de8e1f4?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[55.字符串翻转](http://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
