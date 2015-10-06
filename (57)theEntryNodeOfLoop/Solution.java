@@ -1,3 +1,8 @@
+/*
+链表中环的入口结点
+题目描述
+一个链表中包含环，请找出该链表的环的入口结点。
+*/
 class ListNode {
     int val;
     ListNode next = null;
@@ -16,6 +21,8 @@ public class Solution {
         	return entryNode;
         if(pHead.next==pHead)
         	return pHead;
+        if(pHead.next==null)
+            return null;
         ListNode slowNode = pHead;
         ListNode fastNode = pHead.next;
         ListNode encounterNode = null;
@@ -30,13 +37,13 @@ public class Solution {
         if(slowNode==fastNode)
         	encounterNode = slowNode;
         slowNode = pHead;
+        fastNode = fastNode.next;
         while(slowNode!=fastNode){
         	slowNode=slowNode.next;
         	fastNode=fastNode.next;
         }
         entryNode = slowNode;
         return entryNode;
-
     }
 
     public static void main(String[]args){
@@ -55,7 +62,8 @@ public class Solution {
     	System.out.println(EntryNodeOfLoop(node1).val);
 
     }
-
-
-
 }
+
+/*
+
+*/
