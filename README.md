@@ -113,3 +113,5 @@
 [55.字符串翻转](http://www.nowcoder.com/practice/12d959b108cb42b1ab72cef4d36af5ec?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [56.翻转单词序列](http://www.nowcoder.com/practice/3194a4f4cf814f63919d0790578d51f3?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[57.链表中环的入口结点](http://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
