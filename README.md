@@ -23,7 +23,6 @@
 
 [11.矩形覆盖](http://www.nowcoder.com/practice/72a5a919508a4251859fb2cfb987a0e6?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
-
 12.Excel中字母行列问题
 
 [13.计算二进制数中1的个数](http://www.nowcoder.com/practice/8ee967e43c2c4ec193b040ea7fbb10b8?rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
@@ -117,3 +116,5 @@
 [57.链表中环的入口结点](http://www.nowcoder.com/practice/253d2c59ec3e4bc68da16833f79a38e4?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [58.二叉搜索树的第k个结点](http://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[59.最小的K个数](http://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
