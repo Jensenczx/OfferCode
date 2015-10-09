@@ -118,3 +118,5 @@
 [58.二叉搜索树的第k个结点](http://www.nowcoder.com/practice/ef068f602dde4d28aab2b210e859150a?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [59.最小的K个数](http://www.nowcoder.com/practice/6a296eb82cf844ca8539b57c23e6e9bf?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[60.滑动窗口的最大值](http://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
