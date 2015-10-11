@@ -122,3 +122,5 @@
 [60.滑动窗口的最大值](http://www.nowcoder.com/practice/1624bc35a45c42c0bc17d17fa0cba788?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [61.数组中重复的数字](http://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[62.把字符串转换成整数](http://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
