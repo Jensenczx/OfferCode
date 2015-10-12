@@ -124,3 +124,5 @@
 [61.数组中重复的数字](http://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [62.把字符串转换成整数](http://www.nowcoder.com/practice/1277c681251b4372bdef344468e4f26e?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[63.数据流中的中位数](http://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
