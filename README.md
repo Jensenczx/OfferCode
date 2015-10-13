@@ -128,3 +128,5 @@
 [63.数据流中的中位数](http://www.nowcoder.com/practice/9be0172896bd43948f8a32fb954e1be1?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [64.字符流中第一个不重复的字符](http://www.nowcoder.com/practice/00de97733b8e4f97a3fb5c680ee10720?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[65.表示数值的字符串](http://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(未解决)
