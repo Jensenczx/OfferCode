@@ -73,7 +73,7 @@
 
 [36.删除链表中重复的结点](http://www.nowcoder.com/practice/fc533c45b73a41b0b44ccba763f866ef?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
-[37.把数组排成最小的数](http://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(未)
+[37.把数组排成最小的数](http://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [38.字符串的排列](http://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)（未）
 
