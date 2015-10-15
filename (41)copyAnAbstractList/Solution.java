@@ -21,26 +21,33 @@ public class Solution {
         //将每个节点复制一遍放在原来节点的后面
         while(pHead.next!=null){
                 RandomListNode temNode = new RandomListNode(pHead.label);
-                temNode.next=pHead.next;
+                temNode.next = pHead.next;
                 pHead.next = temNode;
                 pHead = temNode.next;
         }
         RandomListNode endNode = new RandomListNode(pHead.label);
         pHead.next = endNode;
         pHead = firstNode;
+        if(pHead.random!=null)
+            pHead.next.random = pHead.random.next;
+        else
+            pHead.next.random = null;
+        pHead = pHead.next;
         //将所有的节点的野节点的指向确定
-        while(pHead!=null&&pHead.next!=null){
+        while(pHead.next!=null){
+                pHead = pHead.next;
                 if(pHead.random!=null)
-                pHead.next.random = pHead.random.next;
+                    pHead.next.random = pHead.random.next;
                 else
-                        pHead.next.random = pHead.random;
-                pHead = pHead.next.next;
+                        pHead.next.random = null;
+                pHead = pHead.next;
         }
         pHead = firstNode;
        //将原来的节点和现在的节点拆分
        newList = pHead.next;
        node = pHead.next;
-       pHead = pHead.next;
+       pHead.next = null;
+       pHead = newList;
        while(pHead.next!=null){
                pHead = pHead.next;
                node.next=pHead.next;
@@ -63,7 +70,7 @@ public class Solution {
             node1.random=node3;
             node2.random=node5;
             node4.random=node2;
-            System.out.println(Clone(node1).next.next.next.next.random.label);
+            System.out.println(Clone(node1).next.next.label);
     }
     
 }
