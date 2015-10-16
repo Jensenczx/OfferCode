@@ -132,3 +132,5 @@
 [65.表示数值的字符串](http://www.nowcoder.com/practice/6f8c901d091949a5837e24bb82a731f2?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)(未解决)
 
 [66.二叉搜索树与双向链表](http://www.nowcoder.com/practice/947f6eb80d944a84850b0538bf0ec3a5?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[67.字符串的排列](http://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
