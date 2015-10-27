@@ -75,7 +75,7 @@
 
 [37.把数组排成最小的数](http://www.nowcoder.com/practice/8fecd3f8ba334add803bf2a06af1b993?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
-[38.字符串的排列](http://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)（未）
+[38.字符串的排列](http://www.nowcoder.com/practice/fe6b651b66ae47d7acce78ffdd9a96c7?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [39.两个链表中的第一个公共结点](http://www.nowcoder.com/practice/6ab1d9a29e88450685099d45c9e31e46?rp=2&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
