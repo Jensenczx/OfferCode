@@ -14,6 +14,7 @@ class ListNode {
     }
 }
 public class Solution {
+
     public static ListNode deleteDuplication(ListNode pHead)
     {
     	if(pHead==null)
@@ -53,6 +54,30 @@ public class Solution {
         }
         return temNode;
     }
+    public static ListNode deleteDuplication(ListNode pHead){
+        ListNode result = new ListNode(0);
+        if(pHead==null)
+            return result.next;
+        ListNode tmpNode = result;
+        while(pHead.next!=null){
+            if(pHead.val!=pHead.next.val){
+                tmpNode.next = new ListNode(pHead.val);
+                tmpNode = tmpNode.next;
+                pHead = pHead.next;
+            }else{
+                int tmp = pHead.val;
+                while(pHead.next!=null){
+                    if(pHead.next.val!=tmp)
+                        break;
+                    else
+                        pHead = pHead.next;
+                }
+            }
+        }
+        tmpNode.next = new ListNode(pHead.val);
+        return result.next;
+    }
+
 
     public static void main (String [] args){
     	ListNode node1 = new ListNode(1);

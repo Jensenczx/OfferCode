@@ -15,11 +15,10 @@ public class Solution {
     			result = array[i];
     			times++;
     		}else{
-    			if(array[i]!=result){
+    			if(array[i]!=result)
     				times--;
-    			}else{
+    			else
     				times++;
-    			}
     		}	
     }
     	if(times>0){

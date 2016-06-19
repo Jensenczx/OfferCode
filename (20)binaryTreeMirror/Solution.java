@@ -18,21 +18,14 @@ class TreeNode {
 二叉树镜像即为将其左右子树进行一个调换。
 */
 public class Solution {
-    public static void Mirror(TreeNode root) {
-    	TreeNode tem = null;
-        if(root!=null){
-        	tem = root.left;
-        		root.left = root.right;
-        		root.right = tem;
-        	if(root.left!=null && root.right!=null){
-        		Mirror(root.left);
-        		Mirror(root.right);
-        	}else if(root.left==null && root.right !=null){
-        		Mirror(root.right);
-        	}else if(root.left!=null && root.right == null){
-        		Mirror(root.left);
-        	}
 
+    public static void Mirror(TreeNode root){
+        if(root!=null){
+            TreeNode tmp = root.left;
+            root.left = root.right;
+            root.right = tmp;
+            Mirror(root.left);
+            Mirror(root.right);
         }
     }
 

@@ -39,7 +39,6 @@ public class Solution {
     		colEnd--;
     		start++;
     	}
-
     	return list;
     }
 

@@ -6,19 +6,21 @@
 */
 public class Solution {
     public boolean Find(int [][] array,int target) {
+        int flag = 0;
         for(int i=array.length-1; i>=0; i--){
-        	for(int j=0; j<array[i].length; j++){
+        	for(int j=flag; j<array[i].length; j++){
         		if(target == array[i][j]){
         			return true;
         		}
         		else if(target<array[i][j]){
-        			continue;
+                    flag = j;
+        			break;
         		}
         	}
         }
         return false;
-
     }
+ 
     public static void main(String []args){
     	int array[][]={{1,2,9},{1,3},{2,3}};
     	Solution msolution = new Solution();

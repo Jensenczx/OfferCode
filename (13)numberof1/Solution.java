@@ -27,6 +27,18 @@ public class Solution {
     	return count;
     }
 
+    public int NumberOf4(int n){
+        int count = 0;
+        int flag = 1;
+        while(n!=0){
+            if(n&1!=0)
+                count++;
+            n>>1;
+        }
+        return count;
+
+    }
+
     public static void main(String [] args){
     	Solution s = new Solution();
     	System.out.println(s.NumberOf1(1));

@@ -11,20 +11,33 @@ class ListNode {
     }
 }
 public class Solution {
-    public static ListNode ReverseList(ListNode head) {
-    	if(head==null)
-    		return null;
-    	ListNode tem = null;
-    	ListNode tem1 = null;
-    	while(head.next!=null){
-    		tem = head;
+
+    static ListNode tmpHead;
+
+    public static ListNode ReverseList1(ListNode head){
+        if(head==null)
+            return null;
+        ListNode tmp = null;
+        ListNode tmp1 = null;
+        while(head.next!=null){
+            tmp = head;
             head = head.next;
-    		tem.next = tem1;
-         	tem1 = tem;
-    	}
-        head.next = tem1;
-    	return head;
+            tmp.next = tmp1;
+            tmp1 = tmp;
+        }
+        head.next = tmp1;
+        return head;
     }
+
+    public static void  ReverseList(ListNode head){
+        if(tmpHead!=null)
+            tmpHead = head;
+        else if(head.next!=null)
+            ReverseList(head.next);
+        System.out.println(head.val);
+    }
+
+
     public static void main(String []args){
     	ListNode node1 = new ListNode(1);
 
@@ -44,7 +57,9 @@ public class Solution {
 
     	node4.next = node5;
 
-    	System.out.println(ReverseList(null));
+        ReverseList(node1);
+
+    	//System.out.println(ReverseList(node1));
     }
 }
 /*

@@ -21,6 +21,18 @@ public class Solution {
         return sum; 
     }
 
+    public int JumpFloorII(int target){
+        if(target <= 0)
+            return 0;
+        if(target == 1)
+            return 1;
+        int sum = 0;
+        for(int i = 1; i <= target; i++){
+            sum = sum + JumpFloorII(target-i);
+        } 
+        return sum+1;
+    }
+
     public static void main(String [] args){
     	Solution s = new Solution();
     	System.out.println(s.JumpFloorII(4));

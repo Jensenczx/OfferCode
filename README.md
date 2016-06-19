@@ -136,3 +136,5 @@
 [67.矩阵中的路径](http://www.nowcoder.com/practice/c61c6999eecb4b8f88a98f66b273a3cc?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
 
 [68.机器人的运动范围](http://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?rp=4&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+[69.正则表达式](http://www.nowcoder.com/practice/45327ae22b7b413ea21df13ee7d6429c?rp=3&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)

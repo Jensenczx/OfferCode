@@ -35,9 +35,9 @@ public class Solution {
     		num1[0]=singleNum1;
     		num2[0]=singleNum2;
     	}
-
     }
 
+    
    public static void main (String [] args){
    		int [] array = {1};
    		int [] array1 = new int[1];

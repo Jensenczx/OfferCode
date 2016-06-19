@@ -12,25 +12,21 @@ class ListNode {
     }
 }
 public class Solution {
-    public static ListNode FindKthToTail(ListNode head,int k) {
-    	ListNode tem = head;
-    	int flag = 0;
-    	if(k==0)
-    		return null;
-    	for(int i=1; i<k; i++){
-    		if(head.next!=null)
-    			head = head.next;
-    		else
-    			return null;
-    	}
-    	while(head.next!=null){
-    		head = head.next;
-    		flag++;
-    	}
-    	for(int i=1; i<flag+1; i++){
-    		tem = tem.next;
-    	}
-    	return tem;
+
+    public static ListNode FindKthToTail(ListNode head,int k){
+        ListNode tmp = head;
+        int flag = 0;
+        if(k==0)
+            return null;
+        for(int i=1; i<k; i++)
+            if(head.next!=null)
+                head = head.next;
+            else return null;
+        while(head.next!=null){
+            head = head.next;
+            tmp = tmp.next;
+        }
+        return tmp;
     }
     public static void main(String [] args){
     	ListNode n1 = new ListNode(1);

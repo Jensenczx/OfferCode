@@ -14,6 +14,7 @@ class TreeNode {
 }
 
 public class Solution {
+
     public static boolean HasSubtree(TreeNode root1,TreeNode root2) {
     	boolean result = false;
     	if(root1!=null&&root2!=null){
@@ -25,7 +26,7 @@ public class Solution {
         	result = HasSubtree(root1.right,root2);
     	}
     	return result;
-        }
+    }
 
     public static boolean doesHaveSubTree(TreeNode root1,TreeNode root2){
     	if(root2 == null)
@@ -48,4 +49,5 @@ public class Solution {
   1.涉及到指针的，尤其要注意的是程序的鲁棒性
   2.和指针的当前实际指向
   3.彻底理清思路然后再下手，不要着急动手去写，思路打通
+  实现思路：首先对给予的结点先一个比较，如果两个结点相等了，则进行进一步的判断，进行其左右结点的判断。如果不相等，则用给定节点的左右结点与其进行比较。
   */

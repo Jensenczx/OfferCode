@@ -5,25 +5,24 @@
 组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
 */
 public class Solution {
-    public static void reOrderArray(int [] array) {
-    	int tem=0;
+
+    public static void reOrderArray(int[] array){
+        int tmp = 0;
         for(int i=0; i<array.length; i++){
-        	if(array[i]%2==0){
-        		for(int j=i+1; j<array.length; j++){
-        			if(array[j]%2!=0){
-        				tem = array[j];
-        				for(int k=j; k>i; k--){
-        					array[k]=array[k-1];
-        				}
-        				array[i]=tem;
-        				break;
-        			}
-        		}
-        	}
+            if(array[i]%2==0{
+                for(int j=i+1; j<array.length; j++){
+                    if(array[j]%2!=0){
+                        tmp = array[j];
+                        for(int k=j; k>i; k--)
+                            array[k] = array[k-1];
+                        array[i] = tmp;
+                        break;
+                    }
+                }
+            }
         }
-        for(int num:array){
-        	  System.out.println(num);
-        }
+        for(int num:array)
+            System.out.println(num);
     }
     public static void main(String [] args){
     	int [] array = {1,2,4,6,7,9};
@@ -34,3 +33,7 @@ public class Solution {
 1.寻找偶数，找到后，寻找下一个奇数，找到奇数
 2.整体向后移动
 */
+
+/*偶数全部移动到最右侧，奇数移动到左侧，一个笨方法，将奇数拿出来存放到一个数组，然后将偶数拿出来存放到一个数组，然后将两个数组
+合并，如果不借助辅助空间，直接在原数组上进行一个操作，我们需要做的是从第一个数开始进行遍历，然后第二重遍历从其后面一位开始，然后
+对这些位置进行一个判断，当我们值出现奇数的时候，进行一个交换，然后将其前面的整体后移。保证有序性*/
