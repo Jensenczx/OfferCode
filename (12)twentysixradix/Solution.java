@@ -13,6 +13,17 @@ public class Solution {
     	return sum;
     }
 
+    public int twentysixRadix(String str) {
+	String capitalStr = str.toUpperCase();
+	int len = capitalStr.length();
+	int sum = 0;
+	for (int i = 0; i < len; i++){
+	    sum = sum + (capitalStr.charAt(i)-'A')*(int)(Math.pow(26,len - i - 1));
+	}
+	return sum;
+    }
+
+
     public static void main (String [] args){
     	Solution s = new Solution();
     	System.out.println(s.twentysixRadix("ab"));
