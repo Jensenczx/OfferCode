@@ -37,6 +37,34 @@ public class Solution {
     	
     }
 
+
+//refine
+    public int RectCover2(int target){
+	if(target == 1)
+	    return 1;
+	if(target == 2)
+	    return 2;
+	if(target > 2)
+	    return RectCover2(target - 1) + RectCover(target - 2);
+	return 0;
+    }
+
+    public int RectCover3(int target){
+	int foo1 = 1;
+	int foo2 = 2;
+	int result = 0;
+	if(target == 1)
+	    return foo1;
+	if(target == 2)
+	    return foo2;
+	for (int i = 3; i <= target; i++){
+	    result = foo1 + foo2;
+   	    foo1 = foo2;
+  	    foo2 = result;
+	}
+	return result;
+    }
+
     public static void main(String [] args){
     	Solution s = new Solution();
     	System.out.println(s.RectCover1(5));
