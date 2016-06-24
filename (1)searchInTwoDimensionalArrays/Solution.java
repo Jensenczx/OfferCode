@@ -19,6 +19,23 @@ public class Solution {
         	}
         }
         return false;
+   }
+
+    public boolean Find(int[][] array, int target) {
+	int len = array.length;
+	int flag = 0;
+	for (int i = array.length - 1; i >= 0; i--)
+	    for (int j = flag; i < array[i].length; j++){
+		if (array[i][j] == target){
+		    return true;
+		}else if(array[i][j] > target){
+		    flag = j;
+		    break;
+		}
+	    }
+	}
+	return false;     
+
     }
  
     public static void main(String []args){

@@ -21,16 +21,16 @@ public class Solution {
         return sum; 
     }
 
-    public int JumpFloorII(int target){
-        if(target <= 0)
-            return 0;
-        if(target == 1)
+    public int JumpFloorII(int target) {
+	if (target <= 0)
+	    return 0;
+	if (target == 1)
             return 1;
-        int sum = 0;
-        for(int i = 1; i <= target; i++){
-            sum = sum + JumpFloorII(target-i);
-        } 
-        return sum+1;
+	int sum = 0;
+	for (int i = 1; i <= target; i++) {
+	    sum += JumpFloorII(target - i);
+	}
+	return sum + 1;
     }
 
     public static void main(String [] args){
@@ -39,7 +39,8 @@ public class Solution {
     }
 }
 
-/*
-1.疑问，作为最后返回值的数据可否修改？？可否通过循环进行解决
-2.走出第一步，然后将问题就分割成了递归的子问题。
-*/
+/**实现思路：
+假设青蛙跳n个台阶，那么它可以先跳出1，，，n步，剩余n-1，，，，0，搭配起来的跳法
+那么其总共的跳转方法也就是为(n-1)+...(0),此处0被我们作为一个边界条件进行了过滤，
+所以我们需要加上1。也就是在没一种的跳转中，我们都需要再加上1，
+**/
