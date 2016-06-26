@@ -4,39 +4,14 @@
 输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。
 */
 public class Solution {
-    public int NumberOf3(int n) {
-    	int num = 0;
-    	while(n!=0){
-    		n = (n-1)&n;
-    		num++;
-    	}
-    	return num;
-    }
 
-    public int NumberOf2(int n){
-    	int count = 0;
-    	int num = 1;
-    	int flag = 1;
-    	while(num<=32){
-    		if((n&flag)!=0){
-    			count++;
-    		}
-    		flag=flag<<1;
-    		num++;
-    	}
-    	return count;
-    }
-
-    public int NumberOf4(int n){
-        int count = 0;
-        int flag = 1;
-        while(n!=0){
-            if(n&1!=0)
-                count++;
-            n>>1;
+    public int Numberof1(int n){
+        int num = 0;
+        while (n != 0){
+            n = (n - 1) & n;
+            num++;
         }
-        return count;
-
+        return num;
     }
 
     public static void main(String [] args){
