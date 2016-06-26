@@ -24,6 +24,34 @@ public class Solution {
         for(int num:array)
             System.out.println(num);
     }
+
+    public void reOrderArray(int[] array) {
+        if (array == null || array.length == 0)
+            return;
+        int positiveNum = 0;
+        for (int i = 0; i < array.length; i++) {
+            if (isEvenNumber (array[i])) {
+                postiveNum ++;
+            }
+        }
+
+        for (int j = 0; j < array.length; j++) {
+            if (isEvenNumber (array[i])){
+                swap(array, i, array.length - (postiveNum--));
+            }
+        }
+    } 
+
+    public boolean isEvenNumber (int num) {
+        return (num % 2 == 0);
+    }
+
+    public void swap (int[] array, int index1, int index2) {
+        array[index1] = array[index1] + array[index2];
+        array[index2] = array[index1] - array[index2];
+        array[index1] = array[index1] - array[index2];
+    }
+
     public static void main(String [] args){
     	int [] array = {1,2,4,6,7,9};
     	reOrderArray(array);
