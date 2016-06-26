@@ -3,27 +3,26 @@
 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
 */
 public class Solution {
-    public static double Power(double base, int exponent) {
-    	double product = 1;
-       	if(exponent==0){
-       	  	return product;
-       }
-       else if(exponent>0){
-       		while(exponent>0){
-       			product = product*base;
-       			exponent--;
-       		}
-       		return product;
-       }
-       else if(exponent < 0){
-       		while(exponent<0){
-       			product = product*base;
-       			exponent++;
-       		}
-       		return (1/product);
-       } 
-       return product;
+
+  public double Power(double base, int exponent) {
+    if (exponent < 0)
+      return 1/CommonPower(base, exponent);
+    return CommonPower(base, exponent);      
   }
+
+  public double CommonPower(double base, int exponent){
+    double product = 1;
+    if (exponent == 0)
+      return 1;
+    while (exponent != 0){
+      product = product * base;
+      if (exponent < 0)
+        exponent++;
+      exponent--;
+    }
+    return product;
+  }
+  
   public static void main (String [] args){
   	System.out.println(Power(0,1));
   }
