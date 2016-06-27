@@ -37,6 +37,16 @@ public class Solution {
         System.out.println(head.val);
     }
 
+    public static void ReverseList(ListNode head, ListNode foo) {
+        if (head.next != null){
+            ReverseList(head.next, foo);
+            head.next.next = head;
+        }else {
+            foo = head;
+        }
+        System.out.println(head.val);
+    }
+
 
     public static void main(String []args){
     	ListNode node1 = new ListNode(1);
@@ -66,5 +76,5 @@ public class Solution {
 解题心得：
 解决这个问题可以说是用来很久的时间，其实最后发现很简单的问题，从中发现的问题就是。
 让链表反向，首先是要将链表走一遍，所以通过头结点和循环来控制其向前走，然后就是如何将其
-翻转过来.
+翻转过来.通过递归的方式可以使得代码变得非常简洁。
 */
