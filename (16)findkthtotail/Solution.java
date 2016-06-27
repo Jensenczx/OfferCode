@@ -28,6 +28,20 @@ public class Solution {
         }
         return tmp;
     }
+
+    public static ListNode FindKthToTail (ListNode head, int k) {
+        if (k <= 0 || head == null)
+            return null;
+        ListNode tmp = head;
+        int num = 1;
+        while (tmp.next != null){
+            tmp = tmp.next;
+            if ((num++) >= k)
+                head = head.next;
+        }
+        return head;
+    }
+
     public static void main(String [] args){
     	ListNode n1 = new ListNode(1);
     	ListNode n2 = new ListNode(2);
@@ -42,4 +56,6 @@ public class Solution {
 /*
 1.从头开始记录下k个数字，然后在记录k个数字之后还有几个数字，
 2.程序鲁棒性问题，特别是对于具有指向的问题，首先想到的就是对其边界进行一些处理。
+3.代码优化:防御式编程，提升鲁棒性，将原来通过for循环和while，两次可以解决的问题
+通过一次循环来解决。
 */
