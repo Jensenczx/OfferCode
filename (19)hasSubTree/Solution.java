@@ -38,6 +38,18 @@ public class Solution {
     	return (doesHaveSubTree(root1.left,root2.left)&&doesHaveSubTree(root1.right,root2.right));
     }
 
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
+        if (root1 == null || root2 == null)
+                return false;
+        if (root1.val == root2.val) {
+            return HasSubtree(root1.left, root2.left) 
+            && HasSubtree(root1.right, root2.left);
+        }else {
+            return HasSubtree (root1.left, root2) 
+            || HasSubtree (root1.right, root2);
+        }
+    }
+
         public static void main (String [] args){
         	TreeNode tree1 = new TreeNode(1);
         	TreeNode tree2 = new TreeNode(2);
