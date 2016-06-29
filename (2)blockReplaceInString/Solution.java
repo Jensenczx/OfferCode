@@ -12,6 +12,11 @@ public class Solution {
     	}
     	return str.toString();
     }
+
+    public String replaceSpace (StringBuffer str) {
+
+    }
+    
     public static void main(String []args){
     	StringBuffer str = new StringBuffer("1 fff 234");
         Solution s = new Solution();

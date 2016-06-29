@@ -31,6 +31,25 @@ public class Solution {
     	return true;
     }
 
+
+    public static boolean IsPopOrder(int [] pushA, int [] popA) {
+        ArrayList<Integer> list = new ArrayList<Integer> ();
+        if(pushA == null || popA == null)
+            return false;
+        for (int i : pushA) 
+            list.add(i);
+        for (int j : popA)
+            if(list.indexOf(j) == -1)
+                return false;
+        if(popA.length <= 2)
+            return true;
+        for (int k = 1; k < popA.length; k++)
+            if (list.indexOf(popA[k])<list.indexOf(popA[k-1]) 
+                && list.indexOf(popA[k])<list.indexOf(popA[k+1]))
+                return false;
+        return true;
+    }
+
     public static void main(String [] args){
     	int [] push ={};
     	int [] popA ={};
