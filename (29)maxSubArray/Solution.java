@@ -32,6 +32,18 @@ public class Solution {
         return max;
     }
 
+    public static int FindGreatestSumOfSubArray(int[] array) {
+        if (array == null || array.length == 0)
+            return 0;
+        int max = array[0];
+        int sum = array[0];
+        for (int i = 1; i < array.length; i++) {
+            sum = array[i] > array[i] + sum ? array[i] : array[i] + sum;
+            max = sum > max : sum ? max;
+        }
+        return max;
+    }
+
     public static void main(String [] args){
     	int [] array = {1,-2,-3};
     	System.out.println(FindGreatestSumOfSubArray(array));

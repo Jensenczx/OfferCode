@@ -29,6 +29,14 @@ public class Solution {
         else return rightDepth+1;
     }
 
+    public static int TreeDepth(TreeNode root) {
+        if (root == null)
+            return 0;
+        int leftDepth = TreeDepth(root.left);
+        int rightDepth = TreeDepth(root.right);
+        return (leftDepth > rightDepth ? leftDepth : rightDepth) + 1; 
+    }
+
     public static void main (String [] args){
     	TreeNode node1 = new TreeNode(1);
     	TreeNode node2 = new TreeNode(2);
