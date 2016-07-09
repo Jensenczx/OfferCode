@@ -35,9 +35,6 @@ public class Solution {
     	return (left&&right);
     }
 
-    public static boolean VerifySquenceOfBST(int [] sequence) {
-        
-    }
     public static void main(String [] args){
     	int [] sequence = {7,4,6,5};
     	System.out.println(VerifySquenceOfBST(sequence));

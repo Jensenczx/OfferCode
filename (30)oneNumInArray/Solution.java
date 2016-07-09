@@ -21,6 +21,21 @@ public class Solution {
        return sum;
     }
 
+    public static int GetNumberOfK(int[] array, int k) {
+        if (array == null || array.length == 0)
+          return 0;
+        int sum  = 0;
+        for (int i = 0; i < array.length; i++) {
+          int tmp = array [i];
+          while (tmp != 0) {
+            if (tmp % 10 == k)
+              sum++;
+            tmp = tmp/10;
+          }
+        }
+        return sum;
+    }
+
     public static void main(String [] args){
     	int [] array = {1,3,3,3,3,4};
     	System.out.println(GetNumberOfK(array,2));
