@@ -36,7 +36,6 @@ public class Solution {
     		num2[0]=singleNum2;
     	}
     }
-
     
    public static void main (String [] args){
    		int [] array = {1};
