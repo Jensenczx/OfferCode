@@ -10,6 +10,12 @@ struct TreeNode {
 class Solution {
 public:
     void Mirror(TreeNode *pRoot) {
-
+    	if(pRoot != NULL) {
+    		TreeNode* node = pRoot->left;
+    		pRoot->left = pRoot->right;
+    		pRoot->right = node;
+    		Mirror(pRoot->left);
+    		Mirror(pRoot->right);
+    	}
     }
 };
